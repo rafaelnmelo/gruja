@@ -1,10 +1,3 @@
-//
-//  GrujaUITestsLaunchTests.swift
-//  GrujaUITests
-//
-//  Created by Rafael Melo on 17/07/24.
-//
-
 import XCTest
 
 class GrujaUITestsLaunchTests: XCTestCase {
