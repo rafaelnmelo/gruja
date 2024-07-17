@@ -7,6 +7,8 @@ struct ContentView: View {
     @State private var tip: String?
     @State private var message: String = ""
     
+    let tipCalculator = TipCalculator()
+    
     var body: some View {
         NavigationView {
             
@@ -25,7 +27,27 @@ struct ContentView: View {
 
                 
                 Button("Calculate Tip") {
-                  
+                    
+                    message = ""
+                    tip = ""
+                    
+                    guard let total = Double(self.total) else {
+                        message = "Invalid Output"
+                        return
+                    }
+                    
+                    do {
+                        
+                    let result = try tipCalculator.calculate(total: total,
+                                            tipPercentage: tipPercentage)
+                        let formatter = NumberFormatter()
+                        formatter.numberStyle = .currency
+                        tip = formatter.string(from: NSNumber(value: result))
+                    } catch TipCalculatorError.invalidInput {
+                        message = "Invalid Output"
+                    } catch {
+                        message = error.localizedDescription
+                    }
                     
                 }.padding(.top, 20)
                 

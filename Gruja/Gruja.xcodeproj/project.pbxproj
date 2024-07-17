@@ -14,6 +14,8 @@
 		8DBC75BB2C480CDA0055263A /* GrujaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBC75BA2C480CDA0055263A /* GrujaTests.swift */; };
 		8DBC75C52C480CDA0055263A /* GrujaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBC75C42C480CDA0055263A /* GrujaUITests.swift */; };
 		8DBC75C72C480CDA0055263A /* GrujaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBC75C62C480CDA0055263A /* GrujaUITestsLaunchTests.swift */; };
+		8DBC75D52C4811DB0055263A /* TipCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBC75D42C4811DB0055263A /* TipCalculator.swift */; };
+		8DBC75D62C4812000055263A /* TipCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBC75D42C4811DB0055263A /* TipCalculator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,7 @@
 		8DBC75C02C480CDA0055263A /* GrujaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GrujaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DBC75C42C480CDA0055263A /* GrujaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrujaUITests.swift; sourceTree = "<group>"; };
 		8DBC75C62C480CDA0055263A /* GrujaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrujaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8DBC75D42C4811DB0055263A /* TipCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalculator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +134,7 @@
 		8DBC75D32C480D030055263A /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				8DBC75D42C4811DB0055263A /* TipCalculator.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -265,6 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DBC75D52C4811DB0055263A /* TipCalculator.swift in Sources */,
 				8DBC75AC2C480CD90055263A /* ContentView.swift in Sources */,
 				8DBC75AA2C480CD90055263A /* GrujaApp.swift in Sources */,
 			);
@@ -275,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DBC75BB2C480CDA0055263A /* GrujaTests.swift in Sources */,
+				8DBC75D62C4812000055263A /* TipCalculator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
