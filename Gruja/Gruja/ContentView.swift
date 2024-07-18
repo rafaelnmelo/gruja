@@ -16,6 +16,7 @@ struct ContentView: View {
                 
                 TextField("Enter total", text: $total)
                     .textFieldStyle(.roundedBorder)
+                    .accessibilityIdentifier("totalTextField")
                 
                 Picker(selection: $tipPercentage) {
                     Text("10%").tag(0.1)
@@ -24,6 +25,7 @@ struct ContentView: View {
                 } label: {
                     EmptyView()
                 }.pickerStyle(.segmented)
+                    .accessibilityIdentifier("tipPercentageSegmentedControl")
 
                 
                 Button("Calculate Tip") {
