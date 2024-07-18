@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8DB8337B2C49436600A55C91 /* ContentViewPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB8337A2C49436600A55C91 /* ContentViewPage.swift */; };
 		8DBC75AA2C480CD90055263A /* GrujaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBC75A92C480CD90055263A /* GrujaApp.swift */; };
 		8DBC75AC2C480CD90055263A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBC75AB2C480CD90055263A /* ContentView.swift */; };
 		8DBC75AE2C480CDA0055263A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DBC75AD2C480CDA0055263A /* Assets.xcassets */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8DB8337A2C49436600A55C91 /* ContentViewPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewPage.swift; sourceTree = "<group>"; };
 		8DBC75A62C480CD90055263A /* Gruja.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gruja.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DBC75A92C480CD90055263A /* GrujaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrujaApp.swift; sourceTree = "<group>"; };
 		8DBC75AB2C480CD90055263A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -74,6 +76,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8DB833792C49434E00A55C91 /* PageObjects */ = {
+			isa = PBXGroup;
+			children = (
+				8DB8337A2C49436600A55C91 /* ContentViewPage.swift */,
+			);
+			path = PageObjects;
+			sourceTree = "<group>";
+		};
 		8DBC759D2C480CD90055263A = {
 			isa = PBXGroup;
 			children = (
@@ -125,6 +135,7 @@
 		8DBC75C32C480CDA0055263A /* GrujaUITests */ = {
 			isa = PBXGroup;
 			children = (
+				8DB833792C49434E00A55C91 /* PageObjects */,
 				8DBC75C42C480CDA0055263A /* GrujaUITests.swift */,
 				8DBC75C62C480CDA0055263A /* GrujaUITestsLaunchTests.swift */,
 			);
@@ -288,6 +299,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DB8337B2C49436600A55C91 /* ContentViewPage.swift in Sources */,
 				8DBC75C72C480CDA0055263A /* GrujaUITestsLaunchTests.swift in Sources */,
 				8DBC75C52C480CDA0055263A /* GrujaUITests.swift in Sources */,
 			);
